@@ -14,3 +14,8 @@ setInterval(() => {
   colorIndex = (colorIndex + 1) % colors.length;
 }, 2000);
 
+window.addEventListener("scroll", function() {
+  var scrollableDistance = document.body.scrollHeight - window.innerHeight;
+  var scrollProgress = (window.pageYOffset / scrollableDistance) * 100;
+  document.getElementById("scrollProgressBar").style.width = scrollProgress + "%";
+});
