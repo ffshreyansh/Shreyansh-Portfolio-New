@@ -1,0 +1,188 @@
+@font-face {
+    font-family: 'NeueMontreal';
+    src: url(./font/NeueMontreal-Regular.otf);
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'NeueMontreal';
+    src: url(./font/NeueMontreal-Medium.otf);
+    font-weight: 500;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.navbar{
+    background-color: rgb(252, 251, 242);
+  transition: background-color 2s;
+}
+
+
+@font-face {
+    font-family: 'NeueMontreal';
+    src: url(./font/NeueMontreal-Bold.otf);
+    font-weight: 800;
+}
+
+.navbar .navbar-brand{
+    font-family: 'NeueMontreal', sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    margin-right: 380px;
+}
+
+.navbar .nav-link {
+    margin-right: 40px;
+    font-family: 'NeueMontreal', sans-serif;
+    font-weight: 500;
+    animation: skew-animation 1.5s ease-in-out ;
+    transform-origin: top bottom;
+    transform: skew(-0.01deg, -0.01deg);
+    transition: transform 0.2s ease-in;
+}
+
+.nav-link:hover {
+    animation: skew-animation 1.5s ease-in-out ;
+    transform-origin: top bottom;
+    transform: skew(4deg, 4deg);
+    transition: transform 0.2s ease-in-out;
+}
+
+.container-fluid {
+    margin: 0.75% 15%;
+    color: black;
+}
+
+
+.container-fluid a {
+
+    text-decoration: none;
+    color: black;
+    font-family: 'NeueMontreal';
+    font-weight: 200;
+    font-size: 20px;
+}
+
+
+#homePage{
+    padding: 5% 10%;
+    width: 100%;
+    height: 650px;
+    background-color: rgb(252, 251, 242);
+  transition: background-color 2s;
+}
+
+#homePage .title{
+    padding-top: 200px;
+    padding-left: 250px;
+    padding-right: 200px;
+   
+}
+ #homePage h1{
+    font-size: 60px;
+    font-family: 'NeueMontreal';
+    font-weight: medium;    
+ }
+
+ #paraPage{
+    background-color: white;
+    padding: 5% 10%;
+    height: 400px;
+    border-bottom: 1px solid rgb(180, 178, 178);
+ }
+
+ #paraPage p{
+    font-family: 'NeueMontreal';
+    font-weight: 200;
+    font-size: 32px;
+    line-height: 48px;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 50px;
+}
+
+#work{
+    padding: 12% 10%;
+
+}
+
+.line{
+    width: 100%;
+    height: 1.5px;
+    background-color: black;
+}
+
+#work h1{
+    font-family: 'NeueMontreal';
+    font-weight: medium;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    font-size: 56px;
+}
+#work .work1{
+    width: 100%;
+    font-family: 'NeueMontreal';
+    font-weight: 200;
+    font-size: 24px
+}
+
+#work p{
+    font-family: 'NeueMontreal';
+    font-weight: medium;
+}
+#work img{
+    width: 100%;
+    border-radius: 10px;
+    margin: 30px 0;
+    animation: skew-animation 1.5s ease-in-out ;
+    transform-origin: top bottom;
+    transform: skew(-0.01deg, -0.01deg);
+    transition: transform 0.2s ease-in;
+}
+#work img:hover{
+    animation: skew-animation 1.5s ease-in-out ;
+    transform-origin: top bottom;
+    transform: skew(0.5deg, 0.5deg);
+    transition: transform 0.2s ease-in-out;
+    opacity: 90%;
+}
+
+#work .work2{
+    width: 100%;
+}
+
+/* RESPONSIVE FOR MOBILE============================================== */
+
+@media only screen and (max-width: 600px){
+    .navbar .navbar-brand{
+        margin-right: 0;
+        padding: 0;
+    }
+    #homePage h1{
+        width: 100%;
+       font-size: 40px;
+    }
+    #homePage .title{
+        padding-top: 250px;
+        padding-left: 0px;
+        padding-right: 0;
+       
+    }
+    .container-fluid {
+        margin: 0.75% 8%;   
+    }
+    #paraPage p{
+        font-family: 'NeueMontreal';
+        font-weight: 200;
+        width: 100%;
+        font-size: 24px;
+        line-height: 28px;
+        padding-left: 0px;
+        padding-bottom: 10px;
+        padding-right: 0px;
+    }
+    #paraPage{
+        margin: 10% 5%;
+    }
+
+}
