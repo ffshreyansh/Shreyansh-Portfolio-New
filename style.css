@@ -114,7 +114,7 @@
  #paraPage p{
     font-family: 'NeueMontreal';
     font-weight: 200;
-    font-size: 32px;
+    font-size: 28px;
     line-height: 48px;
     padding-left: 250px;
     padding-right: 250px;
@@ -360,12 +360,10 @@
     background-color: #000;
     color: white;
     margin-bottom: 50px;
-    scale: 0.94;
+    margin-right: 10px;
 }
-#footer button:hover{
-    scale: 1;
-    transition: scale 0.2s;
-}
+
+
 #footer p{
     margin-right: 30px;
 }

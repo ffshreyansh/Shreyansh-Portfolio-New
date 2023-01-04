@@ -1,3 +1,8 @@
+
+
+
+
+
 const navbar = document.querySelector('.navbar');
 const navbar2 = document.querySelector('#homePage');
 const footer = document.querySelector('#footer');
@@ -48,3 +53,5 @@ window.addEventListener("scroll", function() {
 //       fixedElement.style.position='static';
 //   }
 // });
+
+
