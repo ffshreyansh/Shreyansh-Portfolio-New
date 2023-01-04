@@ -23,17 +23,26 @@ window.addEventListener("scroll", function() {
 // Writings Scrollable Setting============================================
 
 
-const fixedElement = document.querySelector('.writing-heading');
-const scrollableDiv = document.querySelector('.articles');
+// const fixedElement = document.querySelector('.writing-heading');
+// const scrollableDiv = document.querySelector('.articles');
 
-window.addEventListener('scroll', () => {
-  if (scrollableDiv.getBoundingClientRect().top <= 100) {
-    fixedElement.style.position = 'fixed';
-    fixedElement.style.top = '100px';
-    fixedElement.style.width = '24%';  
-  } else {
-    fixedElement.style.position = 'absolute';
-    fixedElement.style.top = 'auto';
-    fixedElement.style.width = '24%';  
-  }
-});
+// window.addEventListener('scroll', () => {
+//   if (scrollableDiv.getBoundingClientRect().top <= 100) {
+//     fixedElement.style.position = 'fixed';
+//     fixedElement.style.top = '100px';
+//     // fixedElement.style.width = '24%';  
+//   } else {
+//     fixedElement.style.position = 'absolute';
+//     fixedElement.style.top = 'auto';
+//     fixedElement.style.width = '24%';  
+//   }
+// });
+
+
+//   const aboutElement = document.querySelector('#about');
+
+// window.addEventListener('scroll', () => {
+//   if (aboutElement.getBoundingClientRect().top <= window.innerHeight) {
+//       fixedElement.style.position='static';
+//   }
+// });
