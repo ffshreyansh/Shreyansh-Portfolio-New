@@ -1,5 +1,6 @@
 const navbar = document.querySelector('.navbar');
 const navbar2 = document.querySelector('#homePage');
+const footer = document.querySelector('#footer');
 let colorIndex = 0;
 const colors = [
   'rgb(241, 250, 238)',
@@ -11,6 +12,7 @@ const colors = [
 setInterval(() => {
   navbar.style.backgroundColor = colors[colorIndex];
   navbar2.style.backgroundColor = colors[colorIndex];
+  footer.style.backgroundColor = colors[colorIndex];
   colorIndex = (colorIndex + 1) % colors.length;
 }, 2000);
 
