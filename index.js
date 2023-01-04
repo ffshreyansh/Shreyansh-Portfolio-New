@@ -19,3 +19,21 @@ window.addEventListener("scroll", function() {
   var scrollProgress = (window.pageYOffset / scrollableDistance) * 100;
   document.getElementById("scrollProgressBar").style.width = scrollProgress + "%";
 });
+
+// Writings Scrollable Setting============================================
+
+
+const fixedElement = document.querySelector('.writing-heading');
+const scrollableDiv = document.querySelector('.articles');
+
+window.addEventListener('scroll', () => {
+  if (scrollableDiv.getBoundingClientRect().top <= 100) {
+    fixedElement.style.position = 'fixed';
+    fixedElement.style.top = '100px';
+    fixedElement.style.width = '24%';  
+  } else {
+    fixedElement.style.position = 'absolute';
+    fixedElement.style.top = 'auto';
+    fixedElement.style.width = '24%';  
+  }
+});
