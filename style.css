@@ -29,6 +29,10 @@
     background-color: rgb(252, 251, 242);
   transition: background-color 2s;
 }
+.navbar a::selection{
+    background-color: #f2fce2;
+
+}
 .navbar span{
     outline: none;
 }
@@ -91,6 +95,15 @@
     background-color: rgb(252, 251, 242);
   transition: background-color 2s;
 }
+#homePage h1::selection{
+    background-color: #f2fce2;
+}
+#paraPage p::selection{
+    background-color: #f2fce2;
+}
+#paraPage a::selection{
+    background-color: #f2fce2;
+}
 
 #homePage .title{
     padding-top: 200px;
@@ -123,8 +136,21 @@
 
 #work{
     padding: 12% 10%;
-
 }
+
+#work h1::selection{
+    background-color: #f2fce2;
+}
+#work a::selection{
+    background-color: #f2fce2;
+}
+#work p::selection{
+    background-color: #f2fce2;
+}
+#work img::selection{
+    background-color: #f2fce2;
+}
+
 
 .line{
     width: 100%;
@@ -190,6 +216,15 @@
 
 
 /* Writing ============================================================== */
+#writing h1::selection{
+    background-color: #f2fce2;
+}
+#writing p::selection{
+    background-color: #f2fce2;
+}
+#writing small::selection{
+    background-color: #f2fce2;
+}
 
 #writing{
     padding: 12% 10%;
@@ -240,7 +275,15 @@
 
 
 /* About =============================================================== */
-
+#about h1::selection{
+    background-color: #f2fce2;
+}
+#about p::selection{
+    background-color: #f2fce2;
+}
+#about a::selection{
+    background-color: #f2fce2;
+}
 #about{
     width: 100%;
     background-color: white;
@@ -277,6 +320,19 @@
 
 
 /* Contact =========================================================== */
+#contact h1::selection{
+    background-color: #f2fce2;
+}
+#contact p::selection{
+    background-color: #f2fce2;
+}
+#contact a::selection{
+    background-color: #f2fce2;
+}
+#contact h4::selection{
+    background-color: #f2fce2;
+}
+
 
 #contact{
     width: 100%;
@@ -339,7 +395,22 @@
 }
 
 /* FOOTER ================================ */
-
+#footer p::selection{
+    background-color: #f2fce2;
+}
+#footer a::selection{
+    background-color: #f2fce2;
+}
+#footer h2::selection{
+    background-color: #f2fce2;
+}
+#footer button::selection{
+    background-color: #f2fce2;
+    color: black;
+}
+#footer::selection{
+    background-color: #f2fce2;
+}
 #footer{
     margin-top: 80px;
     padding: 12% 10%;
