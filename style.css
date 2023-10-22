@@ -28,6 +28,8 @@
 .navbar{
     background-color: rgb(252, 251, 242);
   transition: background-color 2s;
+  width: 100% !important;
+
 }
 .navbar a::selection{
     background-color: #f2fce2;
@@ -514,4 +516,17 @@
         margin-top: 50px;
     }
 
+}
+
+@media (min-width:600px) and (max-width:1024px){
+    #homePage .title{
+        padding-top: 200px;
+        padding-left: 50px;
+        padding-right: 50px;
+       
+    }
+    #paraPage p{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
 }
